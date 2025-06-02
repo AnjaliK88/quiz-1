@@ -67,13 +67,7 @@ const questions = [
     }
   });
   
-  function restartQuiz() {
-    currentQuestion = 0;
-    score = 0;
-    nextBtn.textContent = "Next";
-    scoreEl.textContent = "";
-    showQuestion();
-  }
+
   
   showQuestion();
   
